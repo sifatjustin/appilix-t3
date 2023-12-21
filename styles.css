@@ -40,12 +40,45 @@ p {
     padding: 50px 0px;
 }
 
+.apilix_pricing h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.switch_price span {
+    cursor: pointer;
+    display: block;
+    background-color: #f2eaff;
+    color: #9155fd;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 33px;
+    text-align: center;
+}
+
+.switch_price span:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    padding: 18px 32px;
+}
+
+.switch_price span:nth-child(2) {
+    border-radius: 10px 0 0 10px;
+    padding: 18px 32px;
+}
+
+span.active {
+    background-color: #633ae5;
+    color: #fff;
+
+}
 
 .switch_price {
     display: flex;
     /* gap: 20px; */
     justify-content: center;
     align-items: center;
+
+    /* background-color: #633ae5; */
 }
 
 .card_one,
@@ -58,13 +91,6 @@ p {
 }
 
 
-
-.card_three .high_light_two {
-    background-color: rgb(86, 86, 184);
-    color: white;
-    padding: 8px 12px;
-    border-radius: 18px;
-}
 
 .card_feature ul {
     list-style: none;
@@ -82,24 +108,34 @@ p {
     letter-spacing: .05px;
 
 }
+
 .high_light_one {
-    background-color: rgb(86, 86, 184);
+    background-color: #633ae5;
     color: white;
     padding: 8px 12px;
     border-radius: 5px 0px;
 }
 
 .high_light {
-    background-color: rgb(86, 86, 184);
+    background-color: #633ae5;
     color: white;
 }
 
-.plan_name_lifetime {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.card_three .card_plan .plan_name {
+    position: relative;
+}
+
+.plan_name .lifetime {
+    position: absolute;
+    background-color: #633ae5;
+    color: white;
+    padding: 3px 12px;
+    border-radius: 18px;
+    top: -3px;
+    right: -3px;
 
 }
+
 .txt_large {
     font-size: 60px;
 }
@@ -126,9 +162,17 @@ p {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .apilix_pricing .pricing {
         gap: 35px;
         padding: 50px 0px;
     }
 }
+
+
+/* @media only screen and (max-width: 768px) {
+    .apilix_pricing .pricing {
+        gap: 45px;
+        padding: 50px 0px;
+    }
+} */
