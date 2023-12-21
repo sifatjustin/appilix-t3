@@ -57,12 +57,12 @@ p {
 }
 
 .switch_price span:nth-child(1) {
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 0px 0px 10px;
     padding: 18px 32px;
 }
 
 .switch_price span:nth-child(2) {
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 0px 0px 10px;
     padding: 18px 32px;
 }
 
