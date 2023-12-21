@@ -20,7 +20,91 @@ p {
 .max-p {
     max-width: 800px;
 }
-.askQ{
+
+.askQ {
     color: #6c757d;
 
 }
+
+
+
+/* pricing section */
+.apilix_pricing {
+    background-color: #e7ebed;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+.apilix_pricing .pricing{
+    /* gap: 35px; */
+    padding: 50px 0px;
+}
+
+
+.switch_price {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card_one {
+    background-color: #fff;
+    padding: 30px 20px;
+    border: 1px rgb(217, 212, 212);
+    border-radius: 15px;
+}
+
+.card_feature ul  {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.high_light_one {
+    background-color: rgb(86, 86, 184);
+    color: white;
+    padding: 8px 12px;
+  border-radius: 5px 0px;
+}
+
+.high_light {
+    background-color: rgb(86, 86, 184);
+    color: white;
+
+}
+
+.plan_name_lifetime{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .apilix_pricing .pricing{
+        gap: 35px;
+        padding: 50px 0px;
+    }
+  }
