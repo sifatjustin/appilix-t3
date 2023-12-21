@@ -35,7 +35,7 @@ p {
     padding: 50px 0px;
 }
 
-.apilix_pricing .pricing{
+.apilix_pricing .pricing {
     /* gap: 35px; */
     padding: 50px 0px;
 }
@@ -48,35 +48,56 @@ p {
     align-items: center;
 }
 
-.card_one {
+.card_one,
+.card_two,
+.card_three {
     background-color: #fff;
-    padding: 30px 20px;
+    padding: 30px 35px;
     border: 1px rgb(217, 212, 212);
     border-radius: 15px;
 }
 
-.card_feature ul  {
-    list-style: none;
-    padding: 0px;
+
+
+.card_three .high_light_two {
+    background-color: rgb(86, 86, 184);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 18px;
 }
 
+.card_feature ul {
+    list-style: none;
+    padding: 0px;
+    color: #6c757d;
+    line-height: 1.6666;
+    font-weight: 400;
+    letter-spacing: .05px;
+}
 
+.card_feature span {
+    color: #5b6874;
+    line-height: 1.6666;
+    font-weight: 600;
+    letter-spacing: .05px;
+
+}
 .high_light_one {
     background-color: rgb(86, 86, 184);
     color: white;
     padding: 8px 12px;
-  border-radius: 5px 0px;
+    border-radius: 5px 0px;
 }
 
 .high_light {
     background-color: rgb(86, 86, 184);
     color: white;
-
 }
 
-.plan_name_lifetime{
+.plan_name_lifetime {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -103,8 +124,8 @@ p {
 
 
 @media only screen and (max-width: 600px) {
-    .apilix_pricing .pricing{
+    .apilix_pricing .pricing {
         gap: 35px;
         padding: 50px 0px;
     }
-  }
+}
